@@ -1,0 +1,78 @@
+
+#images{
+    background-image: url(/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;            
+}
+
+.text-warning{
+    text-shadow: 0 0 1px black;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    gap: 6%;
+    justify-content: center;
+    
+}
+
+li{
+    text-align: center;
+    gap: 4px;
+   
+}
+
+
+#entertainment, #sport, #politics, #business{
+    height: 22em
+}
+
+#entertainment{
+    background-image: url(/images\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid 2px white;
+}
+
+
+#sports{
+    background-image: url(/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid 2px white;
+}
+
+#politics{
+    background-image: url(/images\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid 2px white;
+}
+
+#business{
+    background-image: url(/download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid 2px white;
+}
+
+#con1, #con2{
+    height: 22em; 
+}
+
+#con1:hover{
+    background-image: url(/Blog_Reactev_queespricing.jpg);
+}
+
+
+#con2:hover{
+    background-image: url(/8-free-online-courses-to-improve-your-career-prospects.webp);
+}
